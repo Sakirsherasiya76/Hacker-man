@@ -1,0 +1,53 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Barlow:wght@400;500;600;700;800&family=Dela+Gothic+One&family=Fascinate+Inline&family=Fira+Code:wght@400;500;600;700&family=Inter:wght@300;400;500;700;800;900&family=Kaushan+Script&family=Lato:wght@100;300;400;700;900&family=Lobster&family=Poppins:wght@200;300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700&display=swap");
+
+body {
+  background: url(https://www.gifcen.com/wp-content/uploads/2022/01/hacker-gif-9.gif);
+  background-size: cover;
+  color: 
+rgb(55, 216, 55);
+  font-size: 20px;
+  font-family: Lato;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
+  
+}
+
+.container{
+  width: 65%;
+  height: 70vh;
+  /* border: 1px solid white; */
+  background-color: rgba(0, 0, 0, 0.686);
+  border-radius: 20px;
+  padding: 10px 30px;
+  box-shadow: 0 0 2rem 
+#fff, 0 0 0.2rem 
+#fff, 0 0 2rem 
+#21d72a,
+    0 0 0.8rem 
+#21d72a, 0 0 2.8rem 
+#21d72a, inset 0 0 1.3rem 
+#21d72a;
+    overflow: auto;
+}
+.container::-webkit-scrollbar{
+  color: 
+black;
+}
+
+
+@media(max-width:500px) {
+  body{
+    font-size: 13px;
+    background-position: center;
+  }
+  .container{
+    padding: 10px 4px;
+    width: 100%;
+    border-radius: 5px;
+  
+  }
+}
